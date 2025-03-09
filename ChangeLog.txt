@@ -1,5 +1,8 @@
 ﻿ChangeLog
 
+0.0.3.4
+	Fixed double writing to log
+
 0.0.3.3
 	Make mod always around, avoids having to reinitialize every scene
 	Fixed issue where selecting an existing note would make changes go to that note immediately

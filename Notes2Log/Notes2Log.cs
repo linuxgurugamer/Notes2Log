@@ -155,13 +155,14 @@ namespace Notes2Log_NS
 
         public void WriteToLog()
         {
+#if false
             KSPLog.print("Notes2Log: =====================================================================");
             if (activeNote.title != "")
                 KSPLog.print("Notes2Log: " + activeNote.title);
             if (activeNote.note != "")
                 KSPLog.print("Notes2Log: " + activeNote.note);
             KSPLog.print("Notes2Log: =====================================================================");
-
+#endif
             UnityEngine.Debug.Log("Notes2Log: =====================================================================");
             if (activeNote.title != "")
                 UnityEngine.Debug.Log("Notes2Log: " + activeNote.title);
